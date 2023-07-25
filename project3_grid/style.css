@@ -1,0 +1,28 @@
+.container {
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    gap: 10px;
+    min-width: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.block {
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    width: 200px;
+    height: 200px;
+    gap: 10px;
+}
