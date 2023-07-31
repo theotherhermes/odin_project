@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "myFont";
+    src: url("./fonts/Norse-Bold\ \(1\).otf");
+}
+
+:root {
+    height: 100%;
+}
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.left {
+    background-image: url(./img/background.avif);
+    flex: 1;
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    background-color: black;
+    height: 20%;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo>img{
+    height: 100%;
+}
+
+.logo>p{
+    color:white;
+    font-size: 6rem;
+    font-family: 'myFont';  
+    justify-self: end;
+    
+}
+
+
+.buttonLogin {
+    color: greenyellow;
+}
