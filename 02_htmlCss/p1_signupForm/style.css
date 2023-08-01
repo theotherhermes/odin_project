@@ -63,7 +63,7 @@ body {
 }
 
 .text, .whiteForm {
-    padding: 0 15% 5% 5%;
+    padding: 0 15% 1% 5%;
 }
 
 .right>.text{
@@ -74,18 +74,51 @@ body {
 .right>.whiteForm {
     background-color: white;
     padding-top: 1%;
+    box-shadow: 0 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 
 .caption {
     font-size: 1.6rem;
     font-weight: bold;
+    margin-bottom: 2%;
 }
 
 .name, .contact, .pass {
     display: flex;
 }
 
+.name>div, .contact>div, .pass>div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+    margin-right: 10%;
+    width: 100%;
+}
+
+label {
+    font-size: 0.8rem;
+}
+
+input {
+    font-size: 1.2rem;
+}
+
+.createAccount {
+    margin: 3% 0 0 5%;
+    width: 24%;
+    height: 7%;
+    border-radius: 8px;
+    border-color: green;
+    background-color: green;
+    color: white;
+}
+
+.right>p {
+    margin-left: 5%;
+    margin-top: 0%;
+    padding-top: 3%;
+}
 
 .buttonLogin {
-    color: greenyellow;
+    color: green;
 }
